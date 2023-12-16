@@ -61,20 +61,20 @@ body{
 }
 .papper{
   
-    background-image: url("rock_paper_scissors/istockphoto-1490985898-170667a.webp");
+    background-image: url("pepper.webp");
     background-size: cover;
     background-position: center;
 }
 .rock{
   
-    background-image: url("rock_paper_scissors/photo-1584715642381-6f1c4b452b1c.avif");
+    background-image: url("ston.avif");
     background-size: cover;
     background-position: center;
 }
 
 .scior{
   
-    background-image: url("rock_paper_scissors/photo-1586941962519-b1a78cf17677.avif");
+    background-image: url("scicor.avif");
     background-size: cover;
     background-position: center;
 }

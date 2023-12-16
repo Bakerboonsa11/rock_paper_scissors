@@ -139,11 +139,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (userSelection === "rock") {
       image.src =
-        "rock_paper_scissors/photo-1584715642381-6f1c4b452b1c.avif";
+        "ston.avif";
     } else if (userSelection === "papper") {
-      image.src = "rock_paper_scissors/istockphoto-1490985898-170667a.webp";
+      image.src = "pepper.webp";
     } else if (userSelection === "scissors") {
-      image.src = "rock_paper_scissors/photo-1586941962519-b1a78cf17677.avif";
+      image.src = "scicor.avif";
     }
 
     r1.textContent = userSelection;
