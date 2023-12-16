@@ -1,0 +1,146 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: Lobster;
+    margin-top: 3rem;
+    background-color: #FBF6EE;
+    /* color: #CCCCCC; */
+    color: #FFFFFF;
+    
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+.all_container{
+    max-width: 70rem;
+    margin: 0 auto;
+    background-color:#3559E0;
+    padding: 4rem;
+    height: 90vh;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.9);
+}
+
+.resultcontainer{
+    display: flex;
+    justify-content: center;
+    gap: 10rem;
+    font-size: 2rem;
+    margin-top: 2rem;
+  
+}
+.result_viewer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8rem;
+}
+.winner{
+    text-align: center;
+    font-size: 3rem;
+
+}
+.form{
+    position: absolute;
+    bottom: 20%;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.btn-1{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 1rem;
+    color: transparent;
+    text-indent: 100%;
+    white-space: nowrap;
+    margin-right:1rem;
+}
+.papper{
+  
+    background-image: url("rock_paper_scissors/istockphoto-1490985898-170667a.webp");
+    background-size: cover;
+    background-position: center;
+}
+.rock{
+  
+    background-image: url("rock_paper_scissors/photo-1584715642381-6f1c4b452b1c.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+.scior{
+  
+    background-image: url("rock_paper_scissors/photo-1586941962519-b1a78cf17677.avif");
+    background-size: cover;
+    background-position: center;
+}
+.img{
+    width: 20rem;
+    height: auto;
+    position: relative;
+    top: 10%;
+    left: 35%;
+    border-radius: 1rem;
+    /* z-index: -1; */
+}
+.pop{
+    z-index: 99999999;
+    width: 30rem;
+    height: 18rem;
+    background-color:white;
+    position: absolute;
+    top: 29%;
+    left: 40%;
+    border-radius: 1rem;
+    /* color: rgb(0, 0, 128); */
+    color: #36454F;
+}
+.popbutton{
+    margin-top: 3rem;
+    margin-left: 13rem;
+    width: 5rem;
+    background-color: #3559E0;
+    border-radius: 0.55rem;
+    
+}
+.popbutton:hover{
+    background-color: gray;
+   transform: scaleX(1.2);
+}
+.winner_js{
+    margin-top: 4rem;
+    padding: 1.5rem;
+    
+    border: 1px solid black;
+    border-radius: 1rem;
+
+}
+
+
+
+
+/* media query */
+@media only screen and (max-width: 768px) {
+    .all_container {
+      padding: 2rem;
+    }
+  
+    .resultcontainer {
+      flex-direction: column;
+      align-items: center;
+      gap: 2rem;
+    }
+  
+    .img {
+      width: 15rem;
+      left: 30%;
+    }
+  
+    .form {
+      bottom: 10%;
+    }
+  }
