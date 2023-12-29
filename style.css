@@ -3,7 +3,9 @@ html{
 }
 body{
     font-family: Lobster;
-    margin-top: 3rem;
+    /* margin-top: 3rem; */
+    margin-top: 30px;
+
     background-color: #FBF6EE;
     /* color: #CCCCCC; */
     color: #FFFFFF;
@@ -16,12 +18,15 @@ body{
 }
 .all_container{
     max-width: 70rem;
+    height: auto;
     margin: 0 auto;
     background-color:#3559E0;
-    padding: 4rem;
-    height: 90vh;
+    /* padding: 4rem; */
+    padding-bottom: 20px;
+    /* height: 70vh; */
     border-radius: 1rem;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.9);
+    animation: animate 7s ease-in;
 }
 
 .resultcontainer{
@@ -44,10 +49,13 @@ body{
 
 }
 .form{
-    position: absolute;
-    bottom: 20%;
-    left: 50%;
-    transform: translateX(-50%);
+   
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  gap:2rem
 
 }
 .btn-1{
@@ -65,6 +73,28 @@ body{
     background-size: cover;
     background-position: center;
 }
+
+@keyframes animate{
+    0%{
+      opacity: 5%;
+    }
+    25%{
+      opacity: 15%;  
+    }
+   
+    50%{
+         opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+      opacity: 100%;  
+    }
+}
+
+
+
 .rock{
   
     background-image: url("ston.avif");
@@ -85,6 +115,7 @@ body{
     top: 10%;
     left: 35%;
     border-radius: 1rem;
+    margin: 30px 20px;
     /* z-index: -1; */
 }
 .pop{
@@ -124,23 +155,17 @@ body{
 
 
 /* media query */
-@media only screen and (max-width: 768px) {
-    .all_container {
-      padding: 2rem;
-    }
-  
-    .resultcontainer {
-      flex-direction: column;
-      align-items: center;
-      gap: 2rem;
-    }
-  
-    .img {
-      width: 15rem;
-      left: 30%;
-    }
-  
-    .form {
-      bottom: 10%;
-    }
+@media screen and (max-width: 300px) {
+    /* CSS rules to apply when the condition is met */
+    .img{
+        width: 20rem;
+        height: auto;
+        position: relative;
+        top: 10%;
+        left: 15%;
+        border-radius: 1rem;
+        /* margin: 30px 20px; */
+        margin: 20px 0;
+        /* z-index: -1; */
+    } 
   }
