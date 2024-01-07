@@ -151,9 +151,8 @@ body{
 
 
 
-/* media query */
+
 @media screen and (max-width: 300px) {
-    /* CSS rules to apply when the condition is met */
     .img{
         width: 20rem;
         height: auto;
@@ -161,8 +160,6 @@ body{
         top: 10%;
         left: 15%;
         border-radius: 1rem;
-        /* margin: 30px 20px; */
         margin: 20px 0;
-        /* z-index: -1; */
     } 
   }
