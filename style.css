@@ -20,10 +20,8 @@ body{
     max-width: 70rem;
     height: auto;
     margin: 0 auto;
-    background-color:#3559E0;
-    /* padding: 4rem; */
+    background-color:#3559E0; 
     padding-bottom: 20px;
-    /* height: 70vh; */
     border-radius: 1rem;
     box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.9);
     animation: animate 4s ease-in;
@@ -116,7 +114,7 @@ body{
     left: 35%;
     border-radius: 1rem;
     margin: 30px 20px;
-    /* z-index: -1; */
+    
 }
 .pop{
     z-index: 99999999;
@@ -127,7 +125,6 @@ body{
     top: 29%;
     left: 40%;
     border-radius: 1rem;
-    /* color: rgb(0, 0, 128); */
     color: #36454F;
 }
 .popbutton{
