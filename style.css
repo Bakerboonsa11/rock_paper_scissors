@@ -163,3 +163,14 @@ body{
         margin: 20px 0;
     } 
   }
+  @media screen and (max-width: 500px) {
+    .img{
+        width: 20rem;
+        height: auto;
+        position: relative;
+        top: 10%;
+        left: 27%;
+        border-radius: 1rem;
+        margin: 35px 0;
+    } 
+  }
